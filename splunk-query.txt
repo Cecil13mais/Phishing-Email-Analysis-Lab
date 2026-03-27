@@ -1,0 +1,2 @@
+index=email_logs "suspicious-domain.com"
+| stats count by sender, recipient

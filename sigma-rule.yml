@@ -1,0 +1,8 @@
+title: Suspicious Phishing Email Domain
+logsource:
+  category: email
+detection:
+  selection:
+    sender_domain: "suspicious-domain.com"
+  condition: selection
+level: high
